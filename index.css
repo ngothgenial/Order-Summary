@@ -1,0 +1,124 @@
+.bg-one {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-position-y: -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    /* margin-top: -180px; */
+
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 320px;
+    height: 480px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    text-align: left; */
+    box-shadow: 0px 0px 15px rgb(168, 168, 168);
+}
+
+#images-cover {
+    width: 320px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.box-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.h4 {
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.description {
+    font-weight: inherit;
+    font-size: smaller;
+    color: hsl(224, 23%, 55%);
+}
+
+.music-plan {
+    display: flex;
+    justify-content: space-between;
+    background-color:  hsl(240, 10%, 94%);
+    height: 60px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+.music-plan:hover{
+    box-shadow: 0px 0px 15px  hsla(0, 0%, 72%, 0.338);
+}
+.price{
+    color: hsl(224, 23%, 55%);
+    font-weight: normal;
+    font-size: small;
+}
+#label-price-option{
+    font-weight: bold;
+    color: black;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.price-option {
+    margin-left: -35px;
+}
+
+.btn-option {
+    background-color: transparent;
+    border-style: none;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    font-size: small;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn-option:hover{
+    text-decoration: none;
+    color: hsl(245, 86%, 67%);
+}
+.btn{
+    box-shadow: 1px 1px 5px hsl(223, 47%, 23%) ;
+}
+
+.cancel-btn {
+    margin-top: 13px;
+    font-weight: bold;
+    font-size: smaller;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    
+
+}
+.cancel-btn:hover{
+    color: hsl(223, 47%, 23%);
+  
+}
